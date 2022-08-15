@@ -1,0 +1,72 @@
+@font-face {
+  src: url(fonts/Bangers-Regular.ttf);
+  font-family: "Bangers-Regular";
+}
+
+div.container {
+  align-items: center;
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 250px;
+}
+h3 {
+  font-size: 50px;
+  font-family: "Bangers-Regular", italic;
+}
+
+#btn {
+  display: block;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 40px;
+  margin-right: auto;
+  height: 50px;
+  width: 30%;
+  background-color: transparent;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  font-size: 25px;
+}
+#btn:hover {
+  background-color: #adadad;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+span.color {
+  margin-top: 20px;
+  margin-left: 20px;
+  align-items: center;
+  display: block;
+}
+li {
+  display: inline;
+  margin-left: 30%;
+}
+a {
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  transition-duration: 0.4s;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background-color: #adadad;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+ul {
+  padding: 20px;
+}
